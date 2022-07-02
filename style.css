@@ -1,0 +1,160 @@
+#title{
+    background-color: #ff4c68;
+    font-family: 'Montserrat', sans-serif;
+    /* position:absolute; */
+}
+.container>a{
+    font-family: 'Ubuntu', sans-serif;
+    /* line-height: 1.5;
+    font-weight:900; */
+    font-size: 3rem;
+
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    /* font-family: 'Montserrat-800', sans-serif; */
+    font-weight: 1000;
+    line-height: 1.5;
+    font-size: 3rem;
+    color:azure;
+}
+.title-col{
+    padding: 4.5rem 2rem 2rem 0;
+}
+.btn-lg{
+    margin:5% 3% 5% 0;
+    font-size: 0.8 rem;
+}
+.rotate {
+    z-index: 1;
+    width: 15rem;
+    height: auto;
+    margin-left: 5%;
+    transform : rotate(25deg);
+    position:absolute;
+}
+#title>.container-fluid{
+    padding:2% 18%;
+}
+.nav-link{
+    margin-left: 10%;
+    margin: 0 18px 0 18px;
+} 
+#features{
+    background-color: #fff;
+    position:relative;
+    /* can leave this zindex as positioned elements that comes after will automatically be on the top of the previous positioned elements */
+    z-index: 1;
+    text-align: center;
+}
+#features .row{
+    padding: 7% 17%;
+    margin-right: 0;
+}
+.fa-solid{
+color: #ff4c68;
+    
+}
+.fa-solid:hover{
+    color: #fa1e3f;
+}
+#features h3{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+.carousel-item{
+    padding: 7% 17%;
+}
+#testimonials h2{
+    line-height: 2;
+    font-weight: 800;
+}
+#dogimage,.testimonial-image{
+    width: 8rem;
+    border-radius: 100%;
+    margin: 2rem;
+}
+#press{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 2% 5% 7% 5%;
+}
+.press_images{
+    width:16%;
+    margin:0 3%;
+}
+#pricing{
+    text-align: center;
+    padding: 3rem 4%;
+}
+#pricing>h2{
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+.card{
+    margin:3% 3%;
+}
+#pricing .row{
+    padding:0 3%;
+}
+.card-header>h3{
+    font-size:1.6 rem;
+    font-weight: 400;
+}
+.card-body{
+    line-height: 1;
+}
+.card-body>h2{
+    font-weight: 600;
+}
+.card-button{
+    padding:3% 29%;
+    margin: 2% 2%;
+}
+
+.class-text{
+    margin:0;
+    line-height: 1;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 4% 17% 0 17%;
+}
+#cta>h3{
+    color: #fff;
+    font-size:2.4rem;
+    font-weight: 700;
+}
+#footer{
+    text-align: center;
+}
+.ficons{
+    padding: 0px 8px;
+}
+@media screen and (max-width:1000px) {
+    .rotate{
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title>.container-fluid{
+        margin: auto;
+        text-align: center;
+    }
+    .title-col{
+        padding: 0;
+    }
+    #title>.container-fluid>.row{
+        margin-top: 4rem;
+    }
+    #features h3,p{
+        font-size:1.7rem;
+    }
+}
